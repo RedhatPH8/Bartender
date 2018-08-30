@@ -15,22 +15,17 @@ namespace Bartender.Controllers
 			return View();
 		}
 
-		public IActionResult About()
+		public IActionResult Orders()
 		{
 			ViewData["Message"] = "Your application description page.";
 
 			return View();
 		}
 
-		public IActionResult Contact()
+		public IActionResult Drinks()
 		{
 			ViewData["Message"] = "Your contact page.";
 
-			return View();
-		}
-
-		public IActionResult Privacy()
-		{
 			return View();
 		}
 
